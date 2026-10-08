@@ -28,29 +28,29 @@ This project therefore connects three levels of analysis:
 
 For two fluids of densities $\rho_1$ and $\rho_2$ separated by an interface in a gravitational field $g$, the classical Rayleigh-Taylor instability is characterised by the Atwood number
 
-$
+$$
 A = \frac{\rho_2-\rho_1}{\rho_2+\rho_1}.
-$
+$$
 
 For a perturbation with wavenumber $k$, gravity drives the instability while magnetic tension resists bending of field lines.
 
 For the canonical incompressible, tangential-field limit, the linear MHD dispersion relation can be written as
 
-$
+$$
 \omega^2
 = -A g k
 + \frac{B_1^2+B_2^2}{\mu_0(\rho_1+\rho_2)}k^2\cos^2\theta,
-$
+$$
 
 where $\theta$ is the angle between the perturbation wavevector and the magnetic field.
 
 Writing $\omega^2<0$ as $\omega=i\gamma$, the growth rate is
 
-$
+$$
 \gamma^2
 = A g k
 - \frac{B_1^2+B_2^2}{\mu_0(\rho_1+\rho_2)}k^2\cos^2\theta.
-$
+$$
 
 This immediately shows the competition between **buoyant/gravitational driving** and **magnetic tension**.
 
@@ -69,28 +69,28 @@ The marginally stable mode is obtained from $\gamma=0$. This defines a critical 
 
 For the form above,
 
-$
+$$
 k_c
 = \frac{A g\,\mu_0(\rho_1+\rho_2)}{(B_1^2+B_2^2)\cos^2\theta}.
-$
+$$
 
 The corresponding critical wavelength is
 
-$
+$$
 \lambda_c = \frac{2\pi}{k_c}.
-$
+$$
 
 Maximising $\gamma(k)$ gives the fastest-growing mode at
 
-$
+$$
 k_{\rm max}=\frac{k_c}{2},
-$
+$$
 
 and therefore
 
-$
+$$
 \lambda_{\rm max}=2\lambda_c.
-$
+$$
 
 These analytical scales provide a direct benchmark for the numerical simulations.
 
@@ -256,13 +256,13 @@ The project is a compact example of how **analytical plasma physics and computat
 
 The main methodological point is that numerical simulations are not used merely to produce visualisations. The simulation is constructed as a quantitative test of the underlying theory:
 
-$
+$$
 \boxed{\text{Analytical dispersion relation}
 \;\longrightarrow\;
 \text{characteristic scales}
 \;\longrightarrow\;
 \text{numerical verification}}
-$
+$$
 
 This framework is directly relevant to the study of magnetised stellar interiors, buoyancy-driven flows, mixing, and other MHD instabilities in astrophysical plasmas.
 
