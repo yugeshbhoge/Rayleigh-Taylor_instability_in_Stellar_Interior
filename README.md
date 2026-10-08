@@ -202,10 +202,6 @@ These studies can be used to construct stability maps and identify the parameter
 
 The repository also contains 3-D visualisations of the simulated fields, which help highlight the spatial structure of the evolving instability.
 
-<p align="center">
-  <img src="Figures/3d_density.png" width="650" alt="3-D visualisation of the density field">
-  <img src="Figures/3d_magnetic_field.png" width="650" alt="3-D visualisation of the magnetic field">
-</p>
 
 ---
 
